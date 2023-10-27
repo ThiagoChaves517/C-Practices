@@ -1,9 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+/* 
+
+   Hello there!
+   This code is divided into various "mini" codes:
+
+      ---->     printf("------------------------------------------------------\n");     <----       
+
+   Every time you see this printf() above, it means that you've got to a different "mini code".      
+
+*/
+
+int main(void)
 {
     /*
+
+    //Code 1:
 
     int n = 50, m = 10;
     int* p;
@@ -24,6 +37,8 @@ int main()
 
     printf("------------------------------------------------------\n");
 
+    //Code 2:
+
     int n = 0;
     int* p;
 
@@ -43,6 +58,8 @@ int main()
 
     printf("------------------------------------------------------\n");
 
+    //Code 3:
+
     int n[5] = {1,2,3,10,5};
     int* p;
 
@@ -59,6 +76,8 @@ int main()
 
     printf("------------------------------------------------------\n");
 
+    //Code 4:
+
     int x = 5;
     int* p;
 
@@ -66,15 +85,17 @@ int main()
     *p = 15;
 
     printf("Valor de x: %d\n", x);
-    printf("Endereço de p (com &): %p\n", &p);
-    printf("Endereço de p: %p\n", p);
-    printf("Endereço de x: %p\n", &x);
+    printf("Endereco de p (com &): %p\n", &p);
+    printf("Endereco de p: %p\n", p);
+    printf("Endereco de x: %p\n", &x);
     printf("Valor de p: %d\n", *p);
 
     */
     /*
 
     printf("------------------------------------------------------\n");
+
+    //Code 5:
 
     unsigned int n, sum = 0;
     int* p;
@@ -95,6 +116,8 @@ int main()
 
     */
     /*
+
+    // Code 6:
     
     //Infinite Array:
 
@@ -116,6 +139,8 @@ int main()
     */
 
     printf("------------------------------------------------------\n");
+
+    //Code 7:
 
     int array[10];
     int* pares;
