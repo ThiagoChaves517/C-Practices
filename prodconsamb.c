@@ -1,3 +1,11 @@
+// Hello, devs!
+//
+//This code in specific was delivered to broken previously and send as a homework for the "Sistemas Operacionais" subject in UFAM, 
+//oriented by professor André Carvalho.
+//
+//Our mission was to fix a multithreading program that had no protection against race conditions: we needed to make the program "thread-safe". 
+//Here is my result of making it "thread-safe" with semaphores and other mecanisms.
+
 #include <stdio.h>
 #include <unistd.h>
 #include <assert.h>
